@@ -1,8 +1,10 @@
 {
 	"name": "Solana Token2022 Dev",
 	"build": {
-		"dockerfile": "Dockerfile"
+		"dockerfile": "Dockerfile",
+		"options": ["--platform=linux/amd64"]
 	},
+	"runArgs": ["--platform=linux/amd64"],
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {}
 	},
