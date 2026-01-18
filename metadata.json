@@ -1,0 +1,6 @@
+{
+  "name": "Some Token",
+  "symbol": "STKN",
+  "description": "This is a test token",
+  "image":"http://raw.githubusercontent.com/Kevinscki/stkn/main/image.png"
+}
